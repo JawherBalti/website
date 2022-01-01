@@ -1,0 +1,173 @@
+.loginFormContainer {
+  display: flex;
+  flex-direction: column;
+}
+.formLinks {
+  display: flex;
+  height: 150px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.formControlInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #707070;
+  width: 268px;
+  border-radius: 8px 0 0 8px;
+  cursor: pointer;
+  background-color: #ffffff;
+  padding-top: 1rem;
+}
+
+.register img {
+  width: 30px;
+  height: 50px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #707070;
+  width: 268px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  background-color: #ffffff;
+  padding-top: 1rem;
+}
+
+.signin img {
+  width: 30px;
+  height: 50px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.content h6 {
+  color: #222222;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  margin-top: -1rem;
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+
+.content p {
+  color: #222222;
+  font-size: 11px;
+  font-family: 'Segoe UI';
+  margin-left: 1rem;
+  padding-bottom: 2rem;
+  margin-top: -2rem;
+}
+
+.userName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formControlUserName {
+  height: 56px;
+  width: 259px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #707070;
+  text-indent: 20px;
+}
+
+.formControl {
+  height: 56px;
+  width: 536px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #707070;
+  text-indent: 20px;
+}
+
+.button {
+  height: 47px;
+  width: 152px;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.checkIcon {
+  background-color: #a88c6a;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+  position: absolute;
+  margin-top: -1.5rem;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 1919px) {
+  .formLinks {
+    height: 130px;
+  }
+
+  .formControl {
+    height: 35px;
+  }
+
+  .formControlUserName {
+    height: 35px;
+  }
+
+  .button {
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 553px) {
+  .formLinks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.2rem;
+    flex: 1;
+    align-items: center;
+  }
+
+  .formControlUserName {
+    height: 40px;
+    width: 190px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #707070;
+    text-indent: 20px;
+  }
+
+  .register {
+    height: 120px;
+  }
+
+  .signin {
+    height: 120px;
+  }
+
+  .formControl {
+    height: 40px;
+    width: 436px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #707070;
+  }
+}

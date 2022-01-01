@@ -1,0 +1,27 @@
+.nav {
+  height: 42px;
+  padding: 10px;
+  background: #FFFFFF;
+  color: #707070;
+  display: flex;
+  align-items: center;
+  font-family: 'Segoe UI';
+  font-size: 14px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: auto;
+}
+
+.nav ul li a {
+  margin: 5px 15px;
+}
+
+@media screen and (max-width: 1919px) {
+.nav {
+  height: 30px;
+}
+}
